@@ -1,4 +1,5 @@
-﻿using GerenciadorBiblioteca.Models;
+﻿using GerenciadorBiblioteca.Context;
+using GerenciadorBiblioteca.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace GerenciadorBiblioteca.Repository

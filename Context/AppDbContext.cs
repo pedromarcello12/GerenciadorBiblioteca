@@ -1,7 +1,7 @@
 ﻿using GerenciadorBiblioteca.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace GerenciadorBiblioteca
+namespace GerenciadorBiblioteca.Context
 {
     public class AppDbContext : DbContext
     {

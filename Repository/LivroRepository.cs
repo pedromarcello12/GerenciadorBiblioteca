@@ -1,4 +1,5 @@
-﻿using GerenciadorBiblioteca.Models;
+﻿using GerenciadorBiblioteca.Context;
+using GerenciadorBiblioteca.Models;
 using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
