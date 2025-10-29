@@ -17,16 +17,16 @@ namespace GerenciadorBiblioteca.Models
         public EmprestimoModel(int id, int idUsuario, int idLivro, DateTime dataEmprestimo)
         {
             Id = id;
-            IdUsuario = idUsuario;
-            IdLivro = idLivro;
+            UsuarioId = idUsuario;
+            LivroId = idLivro;
             DataEmprestimo = dataEmprestimo;
         }
 
         public int Id { get; set; }
 
-        public int IdUsuario { get; set; }
+        public int UsuarioId { get; set; }
         
-        public int IdLivro { get; set; }
+        public int LivroId { get; set; }
 
         public  DateTime DataEmprestimo { get; set; }
         public DateTime DataDevolucao { get; set; }
