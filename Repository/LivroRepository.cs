@@ -41,6 +41,11 @@ namespace GerenciadorBiblioteca.Repository
         public async Task<LivroModel> Criar(LivroModel livro)
         {
             _context.Livro.Add(livro);
+            var livros = _context.Livro.ToList(); 
+            foreach(LivroModel livro in livros)
+            {
+
+            }
             await _context.SaveChangesAsync();
             return livro;
         }
